@@ -49,7 +49,7 @@ int main()
 
         float power = hypot(pojisyon[0],pojisyon[1])/127;
         float angle = (pojisyon[1],pojisyon[0]) * (180/M_PI); 
-        int num2 = (int)(-5000 * pojisyon[2] / 127); 
+        int num2 = (int)(-47.2440944883 * pojisyon[2]); 
 
         // 単位円に関するベクトルの考え方によりsin-45,cos-45,sin-45,sin-45=sin-45,sin45,sin-45,sin45
         // モーターの回転を考慮すると(sinθに180を足し-sinθとする)sin135,sin45,sin-45,sin225
